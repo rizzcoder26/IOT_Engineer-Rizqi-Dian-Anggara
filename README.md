@@ -143,21 +143,6 @@ Publish ke `smartroom/room-rizqi-1234/command`:
 - Rentang valid **10–60 °C**. Di luar rentang, JSON rusak, atau payload > 128 byte akan diabaikan dan dicatat di serial log.
 - Jika valid, ambang disimpan ke NVS dan telemetri dikirim segera sehingga nilai baru langsung terlihat.
 
-### Contoh pengujian (Mosquitto CLI)
-
-```bash
-# Pantau semua topik perangkat
-mosquitto_sub -h broker.hivemq.com -t "smartroom/room-rizqi-1234/#" -v
-
-# Ubah ambang menjadi 28.5 °C
-mosquitto_pub -h broker.hivemq.com -t "smartroom/room-rizqi-1234/command" -m '{"threshold": 28.5}'
-
-# Contoh perintah tidak valid (diabaikan): ambang di luar 10-60 °C
-mosquitto_pub -h broker.hivemq.com -t "smartroom/room-rizqi-1234/command" -m '{"threshold": 99}'
-```
-
-Alternatif tanpa instalasi: [HiveMQ Web Client](https://www.hivemq.com/demos/websocket-client/) (broker `broker.hivemq.com`, port `8884` untuk WebSocket TLS).
-
 ## Logika Alarm
 
 ```
