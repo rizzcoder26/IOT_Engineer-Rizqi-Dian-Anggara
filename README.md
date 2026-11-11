@@ -196,6 +196,14 @@ Setiap tugas berjalan sebagai task FreeRTOS terpisah. Data antar-task dibagi lew
     └── net.cpp           # Wi-Fi, MQTT, telemetri, perintah
 ```
 
+## Documentation 
+'''
+Schematic : [`Doc/Schematic.pdf`](Doc/Schematic.pdf).
+Video Demo : ['Doc/Video_Demo.md'](Doc/Video_Demo.md).
+Gambar Rangkaian : ['Doc/Gambar_Rangkaian.png'](Doc/Gambar_Rankaian.png).
+'''
+
+
 ## Penulis
 
 Rizqi Dian Anggara
