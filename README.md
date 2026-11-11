@@ -2,6 +2,11 @@
 
 Firmware monitor ruangan berbasis **ESP32** (Arduino + FreeRTOS, PlatformIO). Perangkat membaca suhu, kelembapan, intensitas cahaya, dan gerakan; menampilkannya di OLED; menyalakan alarm lokal (LED + buzzer) saat suhu melewati ambang; serta mengirim telemetri dan menerima perintah ubah ambang lewat **MQTT**.
 
+## Dokumentation : [Doc/](Doc/)
+
+- **Skema rangkaian**: [Doc/Schematic.pdf](Doc/Schematic.pdf)
+- **Video demo**: [Doc/Video_Demo.md](Doc/Video_Demo.md)
+
 ## Fitur
 
 - Pembacaan **DHT22** (suhu, kelembapan), **LDR** (cahaya), dan **PIR** (gerakan).
@@ -196,10 +201,6 @@ Setiap tugas berjalan sebagai task FreeRTOS terpisah. Data antar-task dibagi lew
     └── net.cpp           # Wi-Fi, MQTT, telemetri, perintah
 ```
 
-## Dokumentation
-
-- **Skema rangkaian**: [Doc/Schematic.pdf](Doc/Schematic.pdf)
-- **Video demo**: [Doc/Video_Demo.md](Doc/Video_Demo.md)
 
 ## Penulis
 
