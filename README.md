@@ -56,7 +56,6 @@ Skema rangkaian ada di [`diagram.json`](diagram.json) (proyek Wokwi). Buka file 
 
 ### Prasyarat
 
-- [VS Code](https://code.visualstudio.com/) + ekstensi **PlatformIO IDE**, atau PlatformIO Core (`pip install platformio`).
 - Semua library diunduh otomatis dari `platformio.ini`:
   `DHT sensor library`, `Adafruit Unified Sensor`, `Adafruit SSD1306`, `Adafruit GFX Library`, `PubSubClient`, `ArduinoJson` (v7).
 
