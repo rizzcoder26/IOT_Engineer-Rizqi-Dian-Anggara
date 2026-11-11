@@ -28,9 +28,8 @@
 
 ## Yang akan diperbaiki jika ada waktu lebih
 
-1. **Keamanan MQTT**: TLS (port 8883) dan autentikasi; pindahkan kredensial ke file yang di-`.gitignore` (sediakan `secrets.example.h`).
-2. **Watchdog**: task watchdog agar task yang macet memicu reset otomatis.
-3. **Pengujian otomatis**: fungsi `step()` alarm sudah murni, sehingga mudah diuji dengan `pio test` tanpa hardware.
-4. **Keandalan data**: buffer telemetri saat offline, QoS 1, dan timestamp NTP (saat ini hanya `uptime_s`).
-5. **Kalibrasi sensor**: konversi LDR ke lux dan kalibrasi ADC ESP32 (saat ini nilai mentah 0–4095).
-6. **Provisioning Wi-Fi** (WiFiManager atau BLE) dan **OTA update**, agar tidak perlu flash ulang untuk ganti jaringan atau firmware.
+1. **Watchdog**: task watchdog agar task yang macet memicu reset otomatis.
+2. **Pengujian otomatis**: fungsi `step()` alarm sudah murni, sehingga mudah diuji dengan `pio test` tanpa hardware.
+3. **Keandalan data**: buffer telemetri saat offline, QoS 1, dan timestamp NTP (saat ini hanya `uptime_s`).
+4. **Kalibrasi sensor**: konversi LDR ke lux dan kalibrasi ADC ESP32 (saat ini nilai mentah 0–4095).
+5. **Provisioning Wi-Fi** (WiFiManager atau BLE) dan **OTA update**, agar tidak perlu flash ulang untuk ganti jaringan atau firmware.
