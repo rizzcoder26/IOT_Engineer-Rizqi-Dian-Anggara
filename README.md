@@ -196,12 +196,6 @@ Setiap tugas berjalan sebagai task FreeRTOS terpisah. Data antar-task dibagi lew
     └── net.cpp           # Wi-Fi, MQTT, telemetri, perintah
 ```
 
-## Dokumentasi
-
-- **Proyek Wokwi**: _(isi tautan proyek Wokwi)_
-- **Tangkapan layar rangkaian**: _(isi path gambar, mis. `docs/wokwi-circuit.png`)_
-- **Video demo**: _(isi tautan video 2–3 menit)_
-
 ## Penulis
 
 Rizqi Dian Anggara
