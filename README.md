@@ -6,6 +6,7 @@ Firmware monitor ruangan berbasis **ESP32** (Arduino + FreeRTOS, PlatformIO). Pe
 
 - **Skema rangkaian**: [Doc/Schematic.pdf](Doc/Schematic.pdf)
 - **Video demo**: [Doc/Video_Demo.md](Doc/Video_Demo.md)
+- **Pertimbangan** : [Doc/Decision.md](Doc/Decision.md)
 
 ## Fitur
 
